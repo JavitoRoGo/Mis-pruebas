@@ -1,5 +1,19 @@
-Se crea el primer commit
+Se crea el primer commit: Commit 1
 
+Se crea el segundo commit: Commit 2
+
+Se crea el tercer commit: Commit 3
+
+Se crea el cuarto commit: Commmit 4
+
+Estando en el cuarto commit de main volví al segundo. De este segundo se creó el 5º commit, y se crea como una especie de rama virtual.
+Al volvel a main desde ese commit, el propio git sugiere crear una rama con ese cambio del quinto commit para no perderlo.
+Esa rama se llama "prueba" y contiene el quinto commit.
+
+Todo esto se guarda en el Commit 6 global, o el quinto de la rama main.
+
+
+Esto viene de la rama prueba con un merge:
 Se crea el segundo commit
 
 Volvemos al segundo commit y creamos uno nuevo
